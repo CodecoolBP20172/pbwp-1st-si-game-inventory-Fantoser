@@ -7,7 +7,7 @@ import csv
 def display_inventory(inventory):
     amount = 0
     print("Inventory:")
-    for key in surnames:
+    for key in inventory:
         print(str(inventory[key]) + " " + key)
         amount += inventory[key]
 
